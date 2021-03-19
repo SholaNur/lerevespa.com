@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+}
+
+.link-nav {
+    width: 100%;
+    height: 120px;
+    background-color: beige;
+}
+
+li {
+    list-style: none;
+    margin: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.main-links,
+.sub-links {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* main section srats */
+
+
+/* main contains three boxes, display: flex/ middle box will include three boxes(main-links) 
+add scroll effect */
+
+.main-img {
+    background-color: lightgrey;
+    width: 100%;
+    height: vh;
+}
+
+img {
+    height: 550px;
+}
+
+.mini-links-wrapper {
+    background-color: lightgrey;
+    width: 100;
+    height: 480px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.mini-links img {
+    width: 260px;
+    height: 260px;
+}
